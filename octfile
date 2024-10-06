@@ -18,7 +18,7 @@ git credentialsId: 'fb7de9c4-b229-4f39-8adc-e857819cb47e', url: 'https://github.
 stage('Build'){
 sh "$mavenHome/bin/mvn clean package"
 }
-
+/*
 stage('ExecutesonarqubeReport'){
 sh "$mavenHome/bin/mvn clean sonar:sonar"
 }
@@ -32,6 +32,6 @@ sshagent(['3435255d-b2c7-4a26-9f67-f2f5d59382a7']) {
 sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.36.150:/opt/apache-tomcat-9.0.95/webapps"
 } 
 }
-
+*/
 
 }
