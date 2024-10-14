@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>repository</name>
-	      <url>http://172.31.3.232:9980/nexusmithun/repository/canara-release/</url>
+	      <url>http://65.2.169.159:9980/nexusmithun/repository/canara-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>repository</name>
-	      <url>http://172.31.3.232:9980/nexusmithun/repository/canara-snapshot/</url>
+	      <url>http://65.2.169.159:9980/nexusmithun/repository/canara-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
